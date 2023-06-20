@@ -1,0 +1,6 @@
+main: cc.panada.vortex.bottledxp.BottledXP
+name: VortexBottledXP
+version: 1.2
+api-version: '1.20'
+author: Paneedah
+load: POSTWORLD
