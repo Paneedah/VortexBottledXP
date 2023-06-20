@@ -38,7 +38,7 @@ public class BottledXP extends JavaPlugin implements Listener {
 
     int calculateTotalExperience(int currentLevel) {
         if (currentLevel >= 0 && currentLevel <= 16) return currentLevel * currentLevel + 6 * currentLevel;
-        else if (currentLevel >= 17 && currentLevel <= 31) return (int) (2.5 * currentLevel * currentLevel - 40.5 * currentLevel + 360);
+        if (currentLevel >= 17 && currentLevel <= 31) return (int) (2.5 * currentLevel * currentLevel - 40.5 * currentLevel + 360);
         return (int) (4.5 * currentLevel * currentLevel - 162.5 * currentLevel + 2220);
     }
 }
